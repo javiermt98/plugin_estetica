@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_plugin_estetica_plugin_estetica,plugin_estetica.plugin_estetica,model_plugin_estetica_plugin_estetica,base.group_user,1,1,1,1

@@ -1,0 +1,21 @@
+<odoo>
+    <data>
+
+        <record model="ir.ui.view" id="plugin_estetica.gb_providers_inherit">
+            <field name="name">Extension de Estetica con Filtros de Proveedores</field>
+            <field name="model">estetica.productos_model</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="name" />
+                    <field name="descripcion" />
+                    <field name="precio"/>
+                    <field name="stock" />
+                    <field name="proveedor_id" />
+                    <group expand="0" string="Agrupar por">
+                        <filter name="proveedor_id" context="{'group_by':'proveedor_id'}" />
+                    </group>
+                </search>
+            </field>
+        </record>
+    </data>
+</odoo>
