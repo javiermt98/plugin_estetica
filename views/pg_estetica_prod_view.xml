@@ -1,0 +1,16 @@
+<odoo>
+    <data>
+    
+        <record model="ir.ui.view" id="plugin_estetica.add_img_inherit">
+            <field name="name">Empleados</field>
+            <field name="model">estetica.productos_model</field>
+            <field name="inherit_id" ref="estetica.listado_productos_form"/>
+            <field name="arch" type="xml">
+             <field name="name" position="before">
+                <field name="img" widget="image"/>
+                </field>
+            </field>
+        </record>
+
+    </data>
+</odoo>

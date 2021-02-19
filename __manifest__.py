@@ -26,6 +26,7 @@
         # 'security/ir.model.access.csv',
         'views/views.xml',
         'views/plugin_estetica_view.xml',
+        'views/pg_estetica_prod_view.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
